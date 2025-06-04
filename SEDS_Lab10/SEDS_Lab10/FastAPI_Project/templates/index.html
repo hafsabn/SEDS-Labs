@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI Web UI</title>
+</head>
+<body>
+    <h1>FastAPI Web Interface</h1>
+
+    <!-- Section: Show All Users -->
+    <section>
+        <h2>Show All Users</h2>
+        <button id="getAllUsers">Get All Users</button>
+        <ul id="usersList"></ul>
+    </section>
+
+    <!-- Section: Show User By ID -->
+    <section>
+        <h2>Show User By ID</h2>
+        <input id="userIdInput" type="number" placeholder="Enter User ID" />
+        <button id="getUserById">Get User</button>
+        <div id="userDetails"></div>
+    </section>
+
+    <!-- Section: Create New User -->
+    <section>
+        <h2>Create New User</h2>
+        <input id="userName" type="text" placeholder="Name" />
+        <input id="userEmail" type="email" placeholder="Email" />
+        <button id="createUser">Create User</button>
+        <div id="createUserResponse"></div>
+    </section>
+
+    <!-- Section: Create New Post -->
+    <section>
+        <h2>Create New Post</h2>
+        <input id="postUserId" type="number" placeholder="User ID" />
+        <input id="postTitle" type="text" placeholder="Post Title" />
+        <textarea id="postContent" placeholder="Post Content"></textarea>
+        <button id="createPost">Create Post</button>
+        <div id="createPostResponse"></div>
+    </section>
+
+    <!-- Section: Show Posts of a User -->
+    <section>
+        <h2>Show Posts of a User</h2>
+        <input id="postsUserId" type="number" placeholder="Enter User ID" />
+        <button id="getUserPosts">Get Posts</button>
+        <ul id="postsList"></ul>
+    </section>
+
+    <!-- Section: Delete Post -->
+    <section>
+        <h2>Delete a Post</h2>
+        <input id="deleteUserId" type="number" placeholder="User ID" />
+        <input id="deletePostId" type="number" placeholder="Post ID" />
+        <button id="deletePost">Delete Post</button>
+        <div id="deletePostResponse"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
