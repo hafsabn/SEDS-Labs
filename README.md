@@ -13,6 +13,6 @@ This repo contains my labs for the SEDS module.
 - **Lab 8** – Statistics for Data Science (with plots)
 - **Lab 9** – RESTful APIs with FastAPI (Part I)
 - **Lab 10** – FastAPI (Part II): ORMs and Async
-- **Lab 11** – Data Science App with Streamlit
+- **Lab 11** – Data Science App with Streamlit.
 
 
