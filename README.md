@@ -1,8 +1,8 @@
-# 🧠 SEDS Labs – Software Engineering for Data Science
+#  SEDS Labs – Software Engineering for Data Science
 
 This repo contains my labs for the SEDS module.
 
-## 📚 Lab List
+##  Lab List
 
 - **Lab 2** – Python Basics (numbers, arrays, functions, etc.)
 - **Lab 3** – Advanced Python: Modularity, Readability, Refactoring
